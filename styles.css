@@ -76,10 +76,23 @@ svg {
   letter-spacing: -0.025em;
 }
 
-.brand-emoji {
-  font-size: 36px;
-  font-style: normal;
-  line-height: 1;
+.brand-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #17894c;
+}
+
+.brand-icons svg {
+  width: 34px;
+  height: 34px;
+  fill: currentColor;
+}
+
+.brand-icons .brand-tap {
+  width: 32px;
+  height: 32px;
+  transform: rotate(90deg);
 }
 
 .hero {
@@ -706,7 +719,7 @@ a.store-button:hover {
 }
 
 @media (max-width: 390px) {
-  .brand-name {
+  .brand span {
     font-size: 23px;
   }
 
@@ -714,8 +727,14 @@ a.store-button:hover {
     gap: 8px;
   }
 
-  .brand-emoji {
-    font-size: 31px;
+  .brand-icons svg {
+    width: 29px;
+    height: 29px;
+  }
+
+  .brand-icons .brand-tap {
+    width: 27px;
+    height: 27px;
   }
 
   .phone-stage {
