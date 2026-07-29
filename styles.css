@@ -95,34 +95,6 @@ svg {
   transform: rotate(90deg);
 }
 
-.header-cta {
-  display: inline-flex;
-  min-height: 42px;
-  align-items: center;
-  gap: 9px;
-  border-radius: 999px;
-  background: #17894c;
-  color: white;
-  padding: 0 18px;
-  font-size: 13px;
-  font-weight: 800;
-  transition: transform 160ms ease, background 160ms ease;
-}
-
-.header-cta:hover {
-  transform: translateY(-1px);
-  background: #0f703d;
-}
-
-.header-cta svg {
-  width: 18px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.7;
-}
-
 .hero {
   position: relative;
   overflow: hidden;
@@ -715,11 +687,6 @@ a.store-button:hover {
 @media (max-width: 720px) {
   .shell {
     width: min(100% - 30px, 1180px);
-  }
-
-  .header-cta {
-    min-height: 38px;
-    padding-inline: 14px;
   }
 
   .hero-inner {
