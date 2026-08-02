@@ -1,7 +1,8 @@
 # Race Poke website
 
-The dependency-free marketing website for the Race Poke iOS and Android app.
-Vercel serves the HTML, CSS, and JavaScript directly.
+The dependency-free public website for the Race Poke iOS and Android app.
+Vercel serves the marketing, legal, support, account-deletion, and download
+pages directly as static HTML, CSS, and JavaScript.
 
 ## Local development
 

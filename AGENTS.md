@@ -5,8 +5,9 @@ Vercel. It is intentionally independent from the mobile dependency graph.
 
 ## Scope
 
-Keep this site focused only on app marketing and App Store/Google Play links.
-Do not add product, account, legal, support, or authenticated web experiences.
+Keep this site focused on app marketing, App Store/Google Play links, public
+legal and support pages, account-deletion instructions, and mobile domain
+association endpoints. Do not add authenticated product experiences.
 
 The sibling `frontend` repository owns the Expo React Native iOS/Android app.
 The sibling `api-service` repository owns API behavior.
